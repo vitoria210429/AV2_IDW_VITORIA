@@ -1,38 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AV2_IDW_VITORIA</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Exemplo de Áudio e Vídeo</title>
+  <link rel="stylesheet" href="estilo.css">
 </head>
-
 <body>
+  <h1>Inserindo Áudio e Vídeo com HTML5</h1>
 
+  <div class="container">
+    <div class="midia">
+      <h2>Exemplo de Áudio</h2>
+      <p>Reproduza o áudio abaixo:</p>
+      <audio controls>
+        <source src="exemplo_audio.mp3" type="audio/mpeg">
+        Seu navegador não suporta a tag de áudio.
+      </audio>
+    </div>
 
-    <h1>vitória de oliveira da silva</h1>
-
-<h3>lista ordenada</h3>
-
-<ol>
-
- <li>flamengo</li>
- <li>impactos</li>
-
-
-<h3>lista nao ordenada</h3>
-<ul>
-
-<li>lasanha</li>
-<li>arroz</li>
-<li>salada</li>
-<li>coca cola</li>
-
-</ul>
-
-
-
-</ol>
-
+    <div class="midia">
+      <h2>Exemplo de Vídeo do YouTube</h2>
+      <p>Assista ao vídeo incorporado abaixo:</p>
+      <div class="video-container">
+        <iframe
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ&quot;
+          title="Exemplo de vídeo do YouTube"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
